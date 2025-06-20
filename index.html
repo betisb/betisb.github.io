@@ -1,189 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Betis Baheri - Personal Website</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Quantum S.H.I.E.L.D Laboratory</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body class="w3-light-grey">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<body class="index-page">
 
-    <!-- The Grid -->
-    <div class="w3-row-padding">
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-        <!-- Left Column -->
-        <div class="w3-third">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">QSL</h1>
+      </a>
 
-            <div class="w3-white w3-text-grey w3-card-4">
-                <div class="w3-display-container">
-                    <img src="./BetisBaheri.jpg" style="width:100%" alt="Avatar">
-                    <div class="w3-display-bottomleft w3-container w3-text-black">
-                        <h2>Betis Baheri</h2>
-                    </div>
-                </div>
-                <div class="w3-container">
-                    <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Computer Scientist (Ph.D. Candidate)</p>
-                    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Kent, OH</p>
-                    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>bbaheri@kent.edu</p>
-                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>MSB - LAB160</p>
-                    <hr>
-                    <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-                    <p>Qiskit (IBM-Q API)</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
-                    </div>
-                    <p>Python 3</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:92%">
-                            <div class="w3-center w3-text-white">92%</div>
-                        </div>
-                    </div>
-                    <p>C++</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
-                    </div>
-                    <p>System Administration</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-                    </div>
-                    <br>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Projects</a></li>
+          <li><a href="portfolio.html">Publication</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-                    <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-                    <p>English</p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-                    </div>
-                    <p>Binary</p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
-                    </div>
-                    <p>Persian</p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:99%"></div>
-                    </div>
-                    <br>
-                </div>
-            </div><br>
-            <!-- End Left Column -->
-        </div>
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
 
-        <!-- Right Column -->
-        <div class="w3-twothird">
-
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Research Interests</h2>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Research on Quantum Computing with Dr. Qiang Guan (PhD. Program), Kent State University 2019 -
-                        Current</b></h5>
-                </div>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Research on HPC cloud Systems with Dr. Qiang Guan (Master Program), Kent State University 2019 -
-                        2020</b></h5>
-                </div>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Research on Security and Privacy with Dr. Kambiz Ghazinour (Master Program), Kent State University
-                        2016 - 2019</b></h5>
-                </div>
-            </div>
-           <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Publication</h2>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><a href="https://scholar.google.com/citations?user=TZgIMGkAAAAJ&hl=en&oi=ao">Google Scholar Link</a>
-                    </h5>
-                </div>
-            </div>
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Resume</h2>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><a href="https://betisb.github.io/Resume/Resume.pdf">Link</a>
-                    </h5>
-                </div>
-            </div>
-
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Bio</h2>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Betis Baheri received his B.S. degree in Computer Science from Kent State University, in 2018, and the M.S in computer science from Kent State University in 2020. His area of research while he was in Undergraduate was security and privacy. For his master he focused on HPC systems. Previously he was working on HPC scheduler and currently he is pursuing Ph.D. degree in Computer Science at same university in quantum computing and HPC systems. His main research focus is quantum error correction, quantum deep learning, and quantum machine learning on NISQ and Ion based quantum computers.  </p>
-                    </b></h5>
-                </div>
-            </div>
-
-
-
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Kent State University</b></h5>
-                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-                    <p>Research and Deployment Machine Learning Applications</p>
-                    <ul>
-                        <li>Machine Learning Development on HPC Systems</li>
-                        <li>Developing and deploying CPU/GPU based Machine Learning application on varies systems including HPC and
-                    cloud systems. Familiar with Python, C/C++, Tensorflow, Pytorch, CUDA, MPI, Slurm, and recent ML
-                    libraries.</li>
-                    <li>System Administration for GUANS Lab at Kent State University</li>
-                    <li>Managing and maintaining Linux, VM, and Windows based servers. Providing services, connectivity and
-                    troubleshooting varies applications on backend servers.</li>
-                    </ul>
-                    <hr>
-                </div>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Texas Advanced Computing Center (TACC)</b></h5>
-                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2021 - August 2021</h6>
-                    <p>Research Engineering/Scientist Professional</p>
-                    <ul>
-                        <li>Machine Learning Development on HPC Systems
-                        </li>
-                        <li>
-                            Developing and deploying FanStore on Total Machine in the Texas Advanced Computing Center using Pytorch,
-                            Pytorch profiler, CUDA, and MPI. Preparing and developing ML applications for multi architecture HPC
-                            systems with different CPU architecture. Handle and profiling ML application, monitoring performance, build
-                            and deploying on multiple HPC systems
-                        </li>
-                    </ul>
-                    <hr>
-                </div>
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Kent State University</b></h5>
-                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-                    <p>Researcher at Guans Lab &amp; Teaching Assistance and Grader </p><br>
-                    <ul>
-                        <li>Quantum Computing</li>
-                        <li>My research area includes Quantum machine learning, error correction, quantum system analysis and quantum
-                            error injection</li>
-                    </ul>
-                </div>
-
-                <div class="w3-container">
-                    <h5 class="w3-opacity"><b>Kent Display Inc.</b></h5>
-                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2018 - August 2018</h6>
-                    <p>Software development and Database management </p><br>
-                    <ul>
-                        <li>Automated product fault detection
-                            </li>
-                        <li>Project involved implementing ML techniques to detect and predict the fault in raw material, a website also was
-                            developed to increase the ease of inventory</li>
-                    </ul>
-                </div>
-
-            </div>
-            <!-- End Right Column -->
-        </div>
-        <!-- End Grid -->
     </div>
-    <!-- End Page Container -->
-</div>
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-</footer>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/floating.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 style="color: aliceblue;">Quantum S.H.I.E.L.D Laboratory</h2>
+            <p style="color: aliceblue;">Where Quantum Mechanics Meets Innovation</p>
+            <a href="about.html" class="btn-get-started">About QSL</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Quantum S.H.I.E.L.D Laboratory</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
-</html>
 
+</html>
